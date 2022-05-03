@@ -11,6 +11,7 @@
 		9BB821E028211CE1001D7142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821DF28211CE1001D7142 /* ContentView.swift */; };
 		9BB821E228211CE5001D7142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB821E128211CE5001D7142 /* Assets.xcassets */; };
 		9BB821E528211CE5001D7142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB821E428211CE5001D7142 /* Preview Assets.xcassets */; };
+		9BB821EE28212A1A001D7142 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821ED28212A1A001D7142 /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9BB821DF28211CE1001D7142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BB821E128211CE5001D7142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB821E428211CE5001D7142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BB821ED28212A1A001D7142 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */,
 				9BB821DF28211CE1001D7142 /* ContentView.swift */,
+				9BB821ED28212A1A001D7142 /* LibraryView.swift */,
 				9BB821E128211CE5001D7142 /* Assets.xcassets */,
 				9BB821E328211CE5001D7142 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB821E028211CE1001D7142 /* ContentView.swift in Sources */,
+				9BB821EE28212A1A001D7142 /* LibraryView.swift in Sources */,
 				9BB821DE28211CE1001D7142 /* AppleMusicCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
