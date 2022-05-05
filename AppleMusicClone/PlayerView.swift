@@ -16,12 +16,12 @@ struct PlayerView: View {
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(10)
                 Text("Palm of my hand")
-                    .font(.title2)
+                    .font(.title3)
                 Spacer()
                 Image(systemName: "play.fill")
-                    .font(.title2)
+                    .font(.title3)
                 Image(systemName: "forward.fill")
-                    .font(.title2)
+                    .font(.title3)
             }
             .padding(.horizontal)
         }
