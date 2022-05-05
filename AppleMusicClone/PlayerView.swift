@@ -9,7 +9,23 @@ import SwiftUI
 
 struct PlayerView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack(spacing: 15) {
+                Image("cover")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(10)
+                Text("Palm of my hand")
+                    .font(.title2)
+                Spacer()
+                Image(systemName: "play.fill")
+                    .font(.title2)
+                Image(systemName: "forward.fill")
+                    .font(.title2)
+            }
+            .padding(.horizontal)
+        }
+        .frame(height: 50)
     }
 }
 
