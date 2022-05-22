@@ -29,6 +29,9 @@ struct LibraryView: View {
                     }
                 }
                 .navigationTitle("Медиатека")
+                .toolbar {
+                    EditButton()
+                }
             }
             PlayerView()
             Divider()

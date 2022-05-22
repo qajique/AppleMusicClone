@@ -22,6 +22,9 @@ struct WelcomeView: View {
                         .multilineTextAlignment(.center)
                 }
                 .navigationTitle("Медиатека")
+                .toolbar {
+                    EditButton()
+                }
             }
             PlayerView()
             Divider()
