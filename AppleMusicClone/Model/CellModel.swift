@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LibraryCell: Identifiable {
+struct LibraryCell: Identifiable, Hashable {
     let id = UUID()
     var isChoosen = true
     let name: String

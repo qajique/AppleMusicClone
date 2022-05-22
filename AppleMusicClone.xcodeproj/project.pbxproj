@@ -63,15 +63,14 @@
 		9BB821DC28211CE1001D7142 /* AppleMusicClone */ = {
 			isa = PBXGroup;
 			children = (
+				9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */,
 				9BF3D913283A63C5007D6F60 /* Model */,
 				9BF3D91A283A6754007D6F60 /* View */,
-				9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */,
 				9BB821DF28211CE1001D7142 /* ContentView.swift */,
-				9BF3D90D283A489F007D6F60 /* WelcomeView.swift */,
-				9BB821ED28212A1A001D7142 /* LibraryView.swift */,
 				9BB821E128211CE5001D7142 /* Assets.xcassets */,
 				9BB821E328211CE5001D7142 /* Preview Content */,
 				9BF0681628219DAF000FCECB /* PlayerView.swift */,
+				9BB821ED28212A1A001D7142 /* LibraryView.swift */,
 			);
 			path = AppleMusicClone;
 			sourceTree = "<group>";
@@ -97,6 +96,7 @@
 			children = (
 				9BF3D918283A65DD007D6F60 /* CellView.swift */,
 				9BF3D90F283A5441007D6F60 /* EditView.swift */,
+				9BF3D90D283A489F007D6F60 /* WelcomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

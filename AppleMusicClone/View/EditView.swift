@@ -9,14 +9,31 @@ import SwiftUI
 
 struct EditView: View {
 
-    var options: [LibraryCell] = LibraryList.options
+    @State var options: [LibraryCell] = LibraryList.options
+    @State var selectedRows = Set<LibraryCell>()
 
     var body: some View {
-        NavigationView {
-            List(options, id: \.id) { option in
-                CellView(cell: option)
-            }        
+        VStack {
+            NavigationView {
+                List(selection: $selectedRows) {
+                     ForEach(options, id: \.self) { option in
+                         CellView(cell: option)
+                     }
+                     .onMove(perform: move)
+                }
+                .listStyle(.inset)
+                .toolbar {
+                    EditButton()
+                }
+                .navigationTitle("Медиатека")
+            }
+            PlayerView()
+            Divider()
         }
+    }
+
+    func move(indices: IndexSet, newOffset: Int) {
+        options.move(fromOffsets: indices, toOffset: newOffset)
     }
 }
 

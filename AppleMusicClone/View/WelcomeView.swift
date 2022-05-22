@@ -23,7 +23,12 @@ struct WelcomeView: View {
                 }
                 .navigationTitle("Медиатека")
                 .toolbar {
-                    EditButton()
+                    NavigationLink(
+                        destination: EditView(),
+                        label: {
+                            EditButton()
+                        }
+                    )
                 }
             }
             PlayerView()
