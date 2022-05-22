@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PlayerView: View {
     var body: some View {
-        VStack{
+        VStack {
             HStack(spacing: 15) {
                 Image("cover")
                     .resizable()
@@ -18,14 +18,23 @@ struct PlayerView: View {
                 Text("Palm of my hand")
                     .font(.title3)
                 Spacer()
-                Image(systemName: "play.fill")
-                    .font(.title3)
-                Image(systemName: "forward.fill")
-                    .font(.title3)
+                Button(
+                    action: {}) {
+                        Image(systemName: "play.fill")
+                            .font(.title3)
+                            .foregroundColor(.black)
+                    }
+                Button(
+                    action: {}) {
+                        Image(systemName: "forward.fill")
+                            .font(.title3)
+                            .foregroundColor(.black)
+                    }
             }
             .padding(.horizontal)
+            Divider()
         }
-        .frame(height: 50)
+        .frame(height: 70)
     }
 }
 

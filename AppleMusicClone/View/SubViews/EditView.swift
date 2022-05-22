@@ -13,23 +13,15 @@ struct EditView: View {
     @State var selectedRows = Set<LibraryCell>()
 
     var body: some View {
-        VStack {
-            NavigationView {
-                List(selection: $selectedRows) {
-                     ForEach(options, id: \.self) { option in
-                         CellView(cell: option)
-                     }
-                     .onMove(perform: move)
-                }
-                .listStyle(.inset)
-                .toolbar {
-                    EditButton()
-                }
-                .navigationTitle("Медиатека")
+        List(selection: $selectedRows) {
+            ForEach(options, id: \.self) { option in
+                CellView(cell: option)
             }
-            PlayerView()
-            Divider()
+            .onMove(perform: move)
         }
+        .listStyle(.inset)
+        .navigationTitle("Медиатека")
+        .accentColor(.red)
     }
 
     func move(indices: IndexSet, newOffset: Int) {

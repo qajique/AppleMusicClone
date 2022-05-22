@@ -19,5 +19,6 @@ struct CellView: View {
             }
 
         )
+            .font(.title3)
     }
 }
