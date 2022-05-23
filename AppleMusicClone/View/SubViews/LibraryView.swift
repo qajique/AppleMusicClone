@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WelcomeView: View {
+struct LibraryView: View {
     
     @State private var isEdit = true
     
@@ -30,7 +30,7 @@ struct WelcomeView: View {
     
     @ViewBuilder private var changeView: some View {
         if isEdit {
-            EditedView()
+            BasicView()
         } else {
             EditView()
         }
@@ -39,6 +39,6 @@ struct WelcomeView: View {
 
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+        LibraryView()
     }
 }

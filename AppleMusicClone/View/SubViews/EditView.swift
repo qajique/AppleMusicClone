@@ -15,7 +15,7 @@ struct EditView: View {
     var body: some View {
         List(selection: $selectedRows) {
             ForEach(options, id: \.self) { option in
-                CellView(cell: option)
+                LibraryCellView(cell: option)
             }
             .onMove(perform: move)
         }

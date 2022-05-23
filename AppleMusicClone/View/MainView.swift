@@ -11,7 +11,7 @@ struct MainView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             TabView {
-                WelcomeView()
+                LibraryView()
                     .tabItem {
                         Image(systemName: "square.stack.fill")
                         Text("Медиатека")

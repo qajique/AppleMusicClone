@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CellView: View {
+struct LibraryCellView: View {
 
     var cell: LibraryCell
 
