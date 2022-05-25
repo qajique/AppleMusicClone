@@ -11,32 +11,41 @@ struct RadioView: View {
     var collections: [RadioCollection] = RadioList.collections
     var stations: [RadioStation] = RadioList.stations
 
-    let rows = [
+    let collectionItem = [
         GridItem(.flexible())
     ]
 
-    let columns = [
-        GridItem(.flexible())
+    let stationItem = [
+        GridItem(.flexible(), alignment: .leading)
     ]
 
 
     var body: some View {
         NavigationView {
             ScrollView() {
+                Divider()
                 ScrollView(.horizontal, showsIndicators: false) {
-                    LazyHGrid(rows: rows) {
+                    LazyHGrid(rows: collectionItem) {
                         ForEach(collections, id: \.self) { collection in
                             RadioCollectionView(collection: collection)
                         }
                     }
                 }
+                    .padding()
+                Divider()
+                Text("Станции")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading)
                 ScrollView(.vertical, showsIndicators: false) {
-                    LazyVGrid(columns: columns) {
+                    LazyVGrid(columns: stationItem, spacing: 10) {
                         ForEach(stations, id: \.self) { station in
                             RadioStationView(station: station)
                         }
                     }
                 }
+                .padding()
             }
             .navigationTitle("Радио")
         }
@@ -48,3 +57,4 @@ struct RadioView_Previews: PreviewProvider {
         RadioView()
     }
 }
+

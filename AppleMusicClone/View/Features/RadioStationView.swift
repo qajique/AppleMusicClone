@@ -14,14 +14,21 @@ struct RadioStationView: View {
     var body: some View {
         HStack() {
             Image(station.imageName)
-                .frame(width: 100, height: 100)
+                .resizable()
                 .scaledToFill()
+                .frame(width: 100, height: 100)
+                .clipped()
                 .cornerRadius(10)
             VStack(alignment: .leading) {
-                Text(station.categoryName)
+                Text(station.categoryName)                    
+                    .fontWeight(.medium)
                 Text(station.description)
+                    .font(.system(size: 16.0))
+                    .foregroundColor(.gray)
+                    .fontWeight(.medium)
             }
-        }
-        .frame(height: 150)
+        }        
+        .frame(height: 100)
+        Divider()
     }
 }
