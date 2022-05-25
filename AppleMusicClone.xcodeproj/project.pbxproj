@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B73C81C283BFB200024AD4B /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73C81B283BFB200024AD4B /* RadioView.swift */; };
+		9B73C81E283C00050024AD4B /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73C81D283C00050024AD4B /* RadioModel.swift */; };
+		9B73C822283C05640024AD4B /* RadioCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73C821283C05640024AD4B /* RadioCollectionView.swift */; };
+		9B73C824283C05F50024AD4B /* RadioStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73C823283C05F50024AD4B /* RadioStationView.swift */; };
 		9BB821DE28211CE1001D7142 /* AppleMusicCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */; };
-		9BB821E028211CE1001D7142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821DF28211CE1001D7142 /* ContentView.swift */; };
+		9BB821E028211CE1001D7142 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821DF28211CE1001D7142 /* MainView.swift */; };
 		9BB821E228211CE5001D7142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB821E128211CE5001D7142 /* Assets.xcassets */; };
 		9BB821E528211CE5001D7142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB821E428211CE5001D7142 /* Preview Assets.xcassets */; };
+		9BB821EE28212A1A001D7142 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB821ED28212A1A001D7142 /* BasicView.swift */; };
+		9BF0681728219DAF000FCECB /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0681628219DAF000FCECB /* PlayerView.swift */; };
+		9BF3D90E283A489F007D6F60 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3D90D283A489F007D6F60 /* LibraryView.swift */; };
+		9BF3D910283A5441007D6F60 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3D90F283A5441007D6F60 /* EditView.swift */; };
+		9BF3D917283A6403007D6F60 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3D916283A6403007D6F60 /* CellModel.swift */; };
+		9BF3D919283A65DD007D6F60 /* LibraryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3D918283A65DD007D6F60 /* LibraryCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B73C81B283BFB200024AD4B /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		9B73C81D283C00050024AD4B /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		9B73C821283C05640024AD4B /* RadioCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCollectionView.swift; sourceTree = "<group>"; };
+		9B73C823283C05F50024AD4B /* RadioStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationView.swift; sourceTree = "<group>"; };
 		9BB821DA28211CE1001D7142 /* AppleMusicClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCloneApp.swift; sourceTree = "<group>"; };
-		9BB821DF28211CE1001D7142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BB821DF28211CE1001D7142 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9BB821E128211CE5001D7142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB821E428211CE5001D7142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BB821ED28212A1A001D7142 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		9BF0681628219DAF000FCECB /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		9BF3D90D283A489F007D6F60 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		9BF3D90F283A5441007D6F60 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		9BF3D916283A6403007D6F60 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		9BF3D918283A65DD007D6F60 /* LibraryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B88BB7A283AC0D50011630F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9BF0681628219DAF000FCECB /* PlayerView.swift */,
+				9BF3D918283A65DD007D6F60 /* LibraryCellView.swift */,
+				9B73C821283C05640024AD4B /* RadioCollectionView.swift */,
+				9B73C823283C05F50024AD4B /* RadioStationView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9B88BB7B283AC1360011630F /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				9BF3D90D283A489F007D6F60 /* LibraryView.swift */,
+				9BF3D90F283A5441007D6F60 /* EditView.swift */,
+				9BB821ED28212A1A001D7142 /* BasicView.swift */,
+				9B73C81B283BFB200024AD4B /* RadioView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		9BB821D128211CE0001D7142 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				9BB821DD28211CE1001D7142 /* AppleMusicCloneApp.swift */,
-				9BB821DF28211CE1001D7142 /* ContentView.swift */,
+				9BF3D913283A63C5007D6F60 /* Model */,
+				9BF3D91A283A6754007D6F60 /* View */,
 				9BB821E128211CE5001D7142 /* Assets.xcassets */,
 				9BB821E328211CE5001D7142 /* Preview Content */,
 			);
@@ -65,6 +108,25 @@
 				9BB821E428211CE5001D7142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BF3D913283A63C5007D6F60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BF3D916283A6403007D6F60 /* CellModel.swift */,
+				9B73C81D283C00050024AD4B /* RadioModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BF3D91A283A6754007D6F60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BB821DF28211CE1001D7142 /* MainView.swift */,
+				9B88BB7B283AC1360011630F /* SubViews */,
+				9B88BB7A283AC0D50011630F /* Features */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB821E028211CE1001D7142 /* ContentView.swift in Sources */,
+				9BF3D90E283A489F007D6F60 /* LibraryView.swift in Sources */,
+				9B73C824283C05F50024AD4B /* RadioStationView.swift in Sources */,
+				9BB821E028211CE1001D7142 /* MainView.swift in Sources */,
+				9BF3D910283A5441007D6F60 /* EditView.swift in Sources */,
+				9B73C81E283C00050024AD4B /* RadioModel.swift in Sources */,
+				9B73C822283C05640024AD4B /* RadioCollectionView.swift in Sources */,
+				9BB821EE28212A1A001D7142 /* BasicView.swift in Sources */,
+				9BF3D919283A65DD007D6F60 /* LibraryCellView.swift in Sources */,
+				9BF3D917283A6403007D6F60 /* CellModel.swift in Sources */,
+				9B73C81C283BFB200024AD4B /* RadioView.swift in Sources */,
 				9BB821DE28211CE1001D7142 /* AppleMusicCloneApp.swift in Sources */,
+				9BF0681728219DAF000FCECB /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
