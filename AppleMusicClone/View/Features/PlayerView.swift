@@ -31,10 +31,13 @@ struct PlayerView: View {
                             .foregroundColor(.black)
                     }
             }
+            .padding(.top, 5)
             .padding(.horizontal)
-            Divider()
+            .padding(.bottom, 5)
         }
         .frame(height: 70)
+        .background(Color(UIColor.systemGray6))
+        .opacity(0.95)
     }
 }
 

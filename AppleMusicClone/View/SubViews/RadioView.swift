@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RadioView: View {
+    
     var collections: [RadioCollection] = RadioList.collections
     var stations: [RadioStation] = RadioList.stations
 
