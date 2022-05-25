@@ -16,7 +16,7 @@ struct MainView: View {
                         Image(systemName: "square.stack.fill")
                         Text("Медиатека")
                     }
-                Text("In progress")
+                RadioView()
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
